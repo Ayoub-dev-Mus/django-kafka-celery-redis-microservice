@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 from ..repository import ProductRepository
-from ..models import Product  
+from ..models import Product
 
 class  ProductService(ABC):
     def __init__(self, repository: ProductRepository):

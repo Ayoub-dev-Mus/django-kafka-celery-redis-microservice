@@ -7,4 +7,3 @@ def run_kafka_consumer():
 
     topic_name = 'test'
     consume_messages(topic_name)
-
